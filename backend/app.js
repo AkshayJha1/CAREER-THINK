@@ -7,7 +7,7 @@ dotenv.config();
 
 const app = express();
 const corsOption = {
-    origin : process.env.NODE_ENV === 'development' ? "http://localhost:3000" : "https://careerthink.onrender.com",
+    origin : process.env.NODE_ENV === 'development' ? "http://localhost:3000" : "https://carrerthink.onrender.com",
     methods : "GET ,  POST , PUT , DELETE , PUT , PATCH ,  HEAD",
     credentials: true,
 }
