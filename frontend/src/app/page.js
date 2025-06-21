@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Sparkles, SendHorizonal } from "lucide-react";
 import { aiService } from "@/services/ai.services";
 import RoadmapSkeleton from "@/skeletons/Roadmap.skeleton";
-import Loading from "@/components/loading";
+import Loading from "@/components/Loading";
 
 export default function Page() {
   const [careerInput, setCareerInput] = useState("");
